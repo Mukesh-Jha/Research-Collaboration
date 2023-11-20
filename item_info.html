@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+        {% block content %}
+        
+<div class="container">
+    <h1 class="text-center bg-success text-white">Research Faculty</h1>
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Faculty ID</th>
+          <th>Name</th>
+          <th>Project ID</th>
+          <th>Domain</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in prepmat_22 %}
+        <tr>
+          <td>{{ i.Faculty_ID}}</td>
+          <td>{{ i.Faculty_Name}}</td>
+          
+          <td>{{ i.Project_ID}}</td>
+          <td>{{ i.Project_Domain }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

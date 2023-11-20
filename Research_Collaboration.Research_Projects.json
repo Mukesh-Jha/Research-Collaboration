@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6559d45699e50ff7cffb4214"
+  },
+  "project_id": "p101",
+  "Domain": "Deep Learning",
+  "Project_Title": "Aircraft Predictive Maintenance",
+  "Supervisor": "B Janet",
+  "Student_ID": "205223018"
+},
+{
+  "_id": {
+    "$oid": "6559db0d99e50ff7cffb4223"
+  },
+  "project_id": "p209",
+  "Domain": "Graph Theory",
+  "Project_Title": "Approximations in NP Hard",
+  "Supervisor": "Selva Kumar",
+  "Student_ID": "205223019"
+},
+{
+  "_id": {
+    "$oid": "6559db1199e50ff7cffb4224"
+  },
+  "project_id": "p103",
+  "Domain": "advanced Data Structures",
+  "Project_Title": "Bloom filter Optimization",
+  "Supervisor": "Michael Errock",
+  "Student_ID": "205223020"
+},
+{
+  "_id": {
+    "$oid": "6559db1599e50ff7cffb4225"
+  },
+  "project_id": "p303",
+  "Domain": "Big Data",
+  "Project_Title": "Adaptive HBase Design",
+  "Supervisor": "Vishnu Priya",
+  "Student_ID": "205223021"
+}]

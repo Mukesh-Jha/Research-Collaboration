@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6559d8f899e50ff7cffb421d"
+  },
+  "Research_Faculty": {
+    "$oid": "6559d8e199e50ff7cffb421c"
+  },
+  "Faculty_ID": "3398",
+  "Faculty_Name": "B Janet",
+  "Project_Domain": "Machine Learning",
+  "Project_ID": "P203"
+},
+{
+  "_id": {
+    "$oid": "6559d9ec99e50ff7cffb421f"
+  },
+  "Research_Faculty": {
+    "$oid": "6559d8e199e50ff7cffb421c"
+  },
+  "Faculty_ID": "3395",
+  "Faculty_Name": "Selva Kumar",
+  "Project_Domain": "Graph Theory",
+  "Project_ID": "P209"
+},
+{
+  "_id": {
+    "$oid": "6559d9fb99e50ff7cffb4220"
+  },
+  "Research_Faculty": {
+    "$oid": "6559d8e199e50ff7cffb421c"
+  },
+  "Faculty_ID": "3368",
+  "Faculty_Name": "Michael Errock",
+  "Project_Domain": "Advanced Data Structures",
+  "Project_ID": "P103"
+},
+{
+  "_id": {
+    "$oid": "6559da0099e50ff7cffb4221"
+  },
+  "Research_Faculty": {
+    "$oid": "6559d8e199e50ff7cffb421c"
+  },
+  "Faculty_ID": "3390",
+  "Faculty_Name": "Vishnu Priya",
+  "Project_Domain": "Big Data",
+  "Project_ID": "P303"
+}]

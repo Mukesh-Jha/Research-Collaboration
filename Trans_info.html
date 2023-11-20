@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+        {% block content %}
+<div style="margin:30px">
+
+{% for i in courses_22 %}
+<div class="container2" style="background-color: #f2f2f2; padding: 20px; margin: 30px;border-radius: 5px;">
+        <h3 style="color: #333; font-family: Arial, sans-serif;">{{ i.Course_Name }}</h3>
+        <p class="details">Project ID: {{ i.project_id}}</p>
+        <p class="details">Domain: {{ i.Domain }}</p>
+        <p class="details">Project Title: {{ i.Project_Title }}</p>
+        <p class="details">Supervisor: {{ i.Supervisor }}</p>
+        <p class="details">Studet ID: {{ i.Student_ID }}</p>
+      </div>
+{% endfor %}
+</div>
+{% endblock %}
